@@ -1,0 +1,91 @@
+.ProfileCard {
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(to top left, #5094d5 0%, #0b3964 100%); */
+  background: linear-gradient(to top left, #904e95 0%, #e96443 100%);
+  width: 40%;
+  padding-top: 10%;
+  padding-left: 10%;
+  color: white;
+}
+.RewardCard {
+  width: 60%;
+  height: 250px;
+  box-shadow: 5px 10px 8px #888888;
+  text-align: center;
+  margin-top: 10%;
+  /* background: linear-gradient(to top left, #3d9482 0%, #b0deee 100%); */
+  background: linear-gradient(to top left, #e96443 0%, #904e95 100%);
+  border-radius: 20px;
+  /* border-top: 15px solid #e96443;
+  border-bottom: 15px solid #904e95;
+  background-image:
+    linear-gradient(#e96443, #904e95), linear-gradient(#e96443, #904e95);
+  background-size: 15px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  overflow-y: "hidden"; */
+}
+#reward {
+  /* background: linear-gradient(to top left, #5094d5 0%, #0b3964 100%); */
+  background: linear-gradient(to top left, #904e95 0%, #e96443 100%);
+  cursor: pointer;
+}
+#noreward {
+  color: black;
+}
+.card2 {
+  width: 60%;
+  text-align: center;
+  margin-top: 5%;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 10px 8px #888888;
+  /* height: 80%; */
+  width: 80%;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+h2 {
+  font-weight: none;
+  font-size: medium;
+}
+button {
+  /* background-color: #153e29; */
+  background: linear-gradient(to top left, #904e95 0%, #e96443 100%);
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.click {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  top: 40%;
+}
+h2 {
+  font-size: x-large;
+  font-style: italic;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#disable {
+  background-color: #6b9b5f;
+  cursor: auto;
+}
+.rightClick {
+  width: 15%;
+  height: 15%;
+  margin-top: 10%;
+}
